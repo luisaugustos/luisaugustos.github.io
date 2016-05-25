@@ -38,11 +38,8 @@
         seed: 'YlGn',
         x_colors: 'random'
     });
-
-    var m = new XMLSerializer().serializeToString(pattern.svg());
-    var k = window.btoa(m);
     var element = document.getElementsByTagName('body')[0];
-    element.style.backgroundImage = 'url("data:image/svg+xml;base64,' + k + '")';
+    element.style.backgroundImage = 'url(' + pattern.png() + ')';
 </script>
 </body>
 </html>
