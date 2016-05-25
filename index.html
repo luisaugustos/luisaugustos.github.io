@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
@@ -9,30 +9,40 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
     <title>Luis Augusto Silva by luisaugustos</title>
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <header>
-      <div class="container">
-        <h1>Luis Augusto Silva</h1>
-        <h2></h2>
-
-        <section id="downloads">
-          <a href="https://github.com/luisaugustos" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
-
+<header>
     <div class="container">
-      <section id="main_content">
+        <h1>Luis Augusto Silva</h1>
+    </div>
+</header>
+
+<div class="container">
+    <section id="main_content">
         <p>Web Developer</p>
 
-<p><a href="mailto:luis.bc@hotmail.com">luis.bc@hotmail.com</a>
-+554799474163</p>
-      </section>
-    </div>
+        <p><a href="mailto:luis.bc@hotmail.com">luis.bc@hotmail.com</a></p>
+        <p>+554799474163</p>
+    </section>
+</div>
 
-    
-  </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
+<script>
+    var pattern = Trianglify({
+        width: window.outerWidth,
+        height: window.outerHeight,
+        variance: "0",
+        cell_size: 30,
+        seed: 'YlGn',
+        x_colors: 'random'
+    });
+
+    var m = new XMLSerializer().serializeToString(pattern.svg());
+    var k = window.btoa(m);
+    var element = document.getElementsByTagName('body')[0];
+    element.style.backgroundImage = 'url("data:image/svg+xml;base64,' + k + '")';
+</script>
+</body>
 </html>

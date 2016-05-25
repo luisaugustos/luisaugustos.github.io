@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515 url("../images/bkg.png") 0 0;
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
@@ -38,7 +37,7 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed #b5e853;
+  /*border-bottom: 1px dashed #b5e853;*/
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
@@ -49,7 +48,7 @@ header h1 {
   margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  color: #292928;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
@@ -58,7 +57,7 @@ header h1 {
 }
 
 header h1:before {
-  content: "./ ";
+  content: "";
   font-size: 24px;
 }
 
@@ -88,7 +87,7 @@ section img {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  color: #292928;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -122,6 +121,10 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: #999;
   margin: 0 0 5px 0;
+}
+
+#main_content p {
+  color: #999;
 }
 
 dt {
@@ -227,8 +230,8 @@ hr {
 */
 
 a {
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  color: #00786b;
+  text-shadow: 0 0 5px rgba(0, 186, 172, 0.5);
 }
 
 /* Clearfix */
