@@ -47,10 +47,8 @@ header h1 {
     line-height: 1.5;
     font-weight: bold;
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-    color: #1E353B;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-    0 0 5px rgba(181, 232, 83, 0.1),
-    0 0 10px rgba(181, 232, 83, 0.1);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px 1px rgb(31, 62, 65), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
     letter-spacing: -1px;
     -webkit-font-smoothing: antialiased;
 }
@@ -101,6 +99,13 @@ h1, h2, h3, h4, h5, h6 {
 #main_content .itens i {
 
     margin-right: 10px;
+}
+
+#main_content .initial {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px 1px rgb(31, 62, 65), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
+    letter-spacing: -1px;
+    -webkit-font-smoothing: antialiased;
 }
 
 #main_content p {
